@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ESTILOS.CSS" rel="stylesheet" />
+    <title>Practica JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+        <h1>Funcionalidades con JAVASCRIPT</h1>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <div>
+                <h2>Suma</h2>
+                <p>Funcion donde podemos verificar la suma de dos numeros por medio de dos inputs.</p>
+                <input type="text" id="inputsuma1" placeholder="Ingrese un numero" />
+                <input type="text" id="inputsuma2" placeholder="Ingrese un numero" />
+            </div>
+            
+            <div>
+                <button onclick="suma()"> Calcular</button>
+            </div>
+            <p id="salidasuma">Resultado</p>
+            <hr>
+        </article>
+
+        <article>
+            <div>
+                <h2>Resta</h2>
+                <p>Funcion donde podemos verificar la resta de dos numeros por medio de dos inputs.</p>
+                <input type="text" id="inputsresta1" placeholder="Ingrese un numero" />
+                <input type="text" id="inputresta2" placeholder="Ingrese un numero" />
+            </div>
+            
+            <div>
+                <button onclick="resta()"> Calcular</button>
+            </div>
+            <p id="salidaresta">Resultado</p>
+            <hr>
+        </article>
+
+        <article>
+            <div>
+                <h2>Cuenta Regresiva</h2>
+                <p>Funcion donde digita un numero y devuelve la cuenta regresiva del mismo hasta llegar a 0</p>
+                <input type="text" id="inputCuenta" placeholder="Ingrese un numero" />
+            </div>
+
+            <div>
+                <button onclick="cuenta()"> Calcular</button>
+            </div>
+            <p id="salidaCuenta">Resultado</p>
+            <hr>
+        </article>
+        
+        <article>
+            <div>
+                <h2>Números pares</h2>
+                <p>Funcion donde podemos verificar si el numero ingresado es par o impar.</p>
+                <input type="text" id="inputPares" placeholder="Ingrese un numero" />
+            </div>
+            
+            <div>
+                <button onclick="pares()"> Calcular</button>
+            </div>
+            <p id="salidaPares">Resultado</p>
+            <hr>
+        </article>
+
+        <article>
+            <div>
+                <h2>Array</h2>
+                <p>Funcion donde podemos verificar un valor especifico de una posicion de un array con numeros entre el 1 al 5.</p>
+                <input type="text" id="inputarray" placeholder="Ingrese un numero" />
+            </div>
+            
+            <div>
+                <button onclick="array()"> Calcular</button>
+            </div>
+            <p id="salidararray">Resultado</p>
+            <hr>
+        </article>
+        
+        <article>
+            <div>
+                <h2>Fecha actual </h2>
+                <p>Funcionalidad donde se carga la fecha actual</p>             
+            </div>
+
+            <div>
+                <button onclick="date()"> Cargar fecha</button>
+            </div>
+            <p id="fecha"></p>
+            <hr>
+        </article>
+
+        <article>
+
+            <div>
+                <h2>Elevacion de numero al cuadrado</h2>
+                <p>Funcionalidad donde se eleva al cuadrado el numero ingresado</p>
+                <input type="text" id="inputCuadrado" placeholder="Ingrese un numero" />
+            </div>
+
+            <div>
+                <button onclick="cuadrado()"> Calcular</button>
+            </div>
+            <p id="salidaCuadrado"></p>
+        </article>
+    </main>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
